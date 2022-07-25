@@ -29,8 +29,8 @@
 
 
             <?php
-            if (isset($_GET['page'])) {
-                $page = $_GET['page'];
+            if (isset($_POST['page'])) {
+                $page = $_POST['page'];
 
                 switch ($page) {
                     case 'home':
